@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		22D5270D266A784D00F3E58F /* swiftui_guessing_number_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5270C266A784D00F3E58F /* swiftui_guessing_number_gameApp.swift */; };
-		22D5270F266A784D00F3E58F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5270E266A784D00F3E58F /* ContentView.swift */; };
+		22D5270F266A784D00F3E58F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5270E266A784D00F3E58F /* GameView.swift */; };
 		22D52711266A785200F3E58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D52710266A785200F3E58F /* Assets.xcassets */; };
 		22D52714266A785200F3E58F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D52713266A785200F3E58F /* Preview Assets.xcassets */; };
+		22D5271C266A7A0A00F3E58F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5271B266A7A0A00F3E58F /* GameManager.swift */; };
+		22D5271E266A7A1C00F3E58F /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5271D266A7A1C00F3E58F /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22D52709266A784D00F3E58F /* swiftui-guessing-number-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-guessing-number-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D5270C266A784D00F3E58F /* swiftui_guessing_number_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_guessing_number_gameApp.swift; sourceTree = "<group>"; };
-		22D5270E266A784D00F3E58F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22D5270E266A784D00F3E58F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		22D52710266A785200F3E58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D52713266A785200F3E58F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22D52715266A785200F3E58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D5271B266A7A0A00F3E58F /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		22D5271D266A7A1C00F3E58F /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		22D5270B266A784D00F3E58F /* swiftui-guessing-number-game */ = {
 			isa = PBXGroup;
 			children = (
+				22D52721266A7A7C00F3E58F /* Model */,
+				22D52720266A7A7500F3E58F /* View Model */,
+				22D5271F266A7A6200F3E58F /* View */,
 				22D5270C266A784D00F3E58F /* swiftui_guessing_number_gameApp.swift */,
-				22D5270E266A784D00F3E58F /* ContentView.swift */,
 				22D52710266A785200F3E58F /* Assets.xcassets */,
 				22D52715266A785200F3E58F /* Info.plist */,
 				22D52712266A785200F3E58F /* Preview Content */,
@@ -67,6 +73,30 @@
 				22D52713266A785200F3E58F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22D5271F266A7A6200F3E58F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22D5270E266A784D00F3E58F /* GameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22D52720266A7A7500F3E58F /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				22D5271B266A7A0A00F3E58F /* GameManager.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		22D52721266A7A7C00F3E58F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22D5271D266A7A1C00F3E58F /* GameModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D5270F266A784D00F3E58F /* ContentView.swift in Sources */,
+				22D5271C266A7A0A00F3E58F /* GameManager.swift in Sources */,
+				22D5271E266A7A1C00F3E58F /* GameModel.swift in Sources */,
+				22D5270F266A784D00F3E58F /* GameView.swift in Sources */,
 				22D5270D266A784D00F3E58F /* swiftui_guessing_number_gameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

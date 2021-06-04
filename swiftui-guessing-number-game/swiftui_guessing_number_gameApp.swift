@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct swiftui_guessing_number_gameApp: App {
+    
+    @StateObject var gameManager = GameManager() //call by reference
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameView(gameManager: gameManager)
         }
     }
 }
