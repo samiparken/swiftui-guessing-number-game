@@ -8,6 +8,6 @@ I showcased the development of a SwiftUI app by building a simple game from scra
 - SwiftUI
 - MVVM design pattern
 
-## What I learned from this project
-- A better understanding of SwiftUI. 
-- Learned the difference between MVVM and MVC design patterns.
+## What I Learned from This Project
+- Enhanced my understanding of SwiftUI and its capabilities.
+- Gained insight into the differences between the MVVM and MVC design patterns.
