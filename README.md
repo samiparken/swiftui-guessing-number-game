@@ -1,3 +1,3 @@
 # swiftui-guessing-number-game
 
-![guessing game demo image](README/guessing number game demo.jpg)
+![guessing_game_demo_image](README/guessing number game demo.jpg)
