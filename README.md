@@ -1,7 +1,7 @@
 # swiftui-guessing-number-game
 
-I showcased the development of a SwiftUI app by building a simple game from scratch during the company's seminar.
-PPT file is upon request.
+- I showcased the development of a SwiftUI app by building a simple game from scratch during the company's seminar.
+- PPT file is upon request.
 
 ![guessing_game_demo_image](/README/guessing-number-game-demo.JPG)
 
